@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [on github](https://github.com/escannord/rock-paper-scissors-master)
+- Live Site URL: [live preview](https://rock-paper-scissors-master-two-iota.vercel.app/)
 
 ## My process
 
