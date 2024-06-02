@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+	<title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="heading">
+			<div class="title">
+				<img class="logo" src="images/logo.svg" alt="logo" srcset="" />
+				<div id="score-displayer" class="score-displayer">
+					<span class="text">score</span><span class="number">0</span>
+				</div>
+			</div>
+		</div>
+		<div class="playground">
+			<div class="choices">
+				<img class="bg-figure" src="images/bg-triangle.svg" alt="triangle" />
+				<div class="choice choice-rock option">
+					<div class="hand-box rock" onclick="picked('rock',this)">
+						<div class="hand-content">
+							<span class="hand-text"><img src="images/icon-rock.svg" alt="rock" /></span>
+						</div>
+					</div>
+				</div>
+				<div class="choice choice-paper option">
+					<div class="hand-box paper" onclick="picked('paper',this)">
+						<div class="hand-content">
+							<span class="hand-text"><img src="images/icon-paper.svg" alt="paper" srcset="" /></span>
+						</div>
+					</div>
+				</div>
+				<div class="choice choice-scissors option">
+					<div class="hand-box scissors" onclick="picked('scissors',this)">
+						<div class="hand-content">
+							<span class="hand-text"><img src="images/icon-scissors.svg" alt="scissors"
+									srcset="" /></span>
+						</div>
+					</div>
+				</div>
+				<div class="result-play">
+					<div class="result-text">YOU WIN</div>
+					<button class="btn-replay btn-win">PLAY AGAIN</button>
+				</div>
+				<div class="box-view"></div>
+			</div>
+		</div>
+		<div class="footing">
+			<button class="btn-rules" id="btn-rules">RULES</button>
+			<div class="rule-modal" id="modal-rules">
+				<div class="modal-content" id="modal-content">
+					<div class="modal-header">
+						<h4 class="title">RULES</h4>
+						<button class="btn-modal-close" id="modal-closer">
+							<img src="images/icon-close.svg" alt="close" srcset="" />
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="images/image-rules.svg" alt="rules" srcset="" />
+					</div>
+				</div>
+			</div>
+			<div class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+					href="https://github.com/escannord">Arnold Nguechoung</a>.
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.7.1.min.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+
+</body>
+
+</html>
